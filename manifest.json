@@ -1,0 +1,172 @@
+{
+  "source_base_path": "C:/Users/iniet/Downloads/TBAI-solutions-master/TBAI-solutions-master/Dokumentazioa",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.Baskula.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.Baskula.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa.Baskula",
+      "Summary": "<p sourcefile=\"api/TiketBai_Kudeaketa.Baskula.yml\" sourcestartlinenumber=\"1\">Baskula edo atal baten informazioa adierazten duen klasea.\nProduktuak sailkatzeko eta lotzeko erabiltzen da.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.Produktua.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.Produktua.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa.Produktua",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.Saltzailea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.Saltzailea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa.Saltzailea",
+      "Summary": "<p sourcefile=\"api/TiketBai_Kudeaketa.Saltzailea.yml\" sourcestartlinenumber=\"1\">Saltzaile baten informazioa adierazten duen klasea.\nTiket bakoitza saltzaile batekin lotzeko erabiltzen da.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.TiketLerroa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.TiketLerroa.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa.TiketLerroa",
+      "Summary": "<p sourcefile=\"api/TiketBai_Kudeaketa.TiketLerroa.yml\" sourcestartlinenumber=\"1\">Tiket bateko lerro edo produktu-erregistro bat adierazten duen klasea.\nProduktu bat eta bere kantitatea gordetzen ditu,\neta automatikoki subtotala kalkulatzen du.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.Tiketa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.Tiketa.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa.Tiketa",
+      "Summary": "<p sourcefile=\"api/TiketBai_Kudeaketa.Tiketa.yml\" sourcestartlinenumber=\"1\">Tiket baten informazioa adierazten duen klasea.\nSaltzailea, baskula eta lerro guztiak gordetzen ditu.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TiketBai_Kudeaketa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TiketBai_Kudeaketa.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TiketBai_Kudeaketa",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

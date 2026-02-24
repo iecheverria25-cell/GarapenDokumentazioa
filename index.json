@@ -1,0 +1,47 @@
+{
+  "api/TiketBai_Kudeaketa.Baskula.html": {
+    "href": "api/TiketBai_Kudeaketa.Baskula.html",
+    "title": "Class Baskula | ticketbai",
+    "summary": "Class Baskula Namespace TiketBai_Kudeaketa Assembly TiketBai_Kudeaketa.dll Baskula edo atal baten informazioa adierazten duen klasea. Produktuak sailkatzeko eta lotzeko erabiltzen da. public class Baskula Inheritance object Baskula Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Baskula(int, string, string) Baskula berri bat sortzen du emandako datuekin. public Baskula(int id, string izena, string karpeta) Parameters id int Baskularen IDa. izena string Baskularen izena. karpeta string Lotutako karpetaren bidea. Properties Id Baskularen identifikatzailea (ID). public int Id { get; set; } Property Value int Izena Baskularen edo atalaren izena. public string Izena { get; set; } Property Value string Karpeta Baskulari lotutako karpetaren bidea (fitxategiak irakurtzeko). public string Karpeta { get; set; } Property Value string"
+  },
+  "api/TiketBai_Kudeaketa.Produktua.html": {
+    "href": "api/TiketBai_Kudeaketa.Produktua.html",
+    "title": "Class Produktua | ticketbai",
+    "summary": "Class Produktua Namespace TiketBai_Kudeaketa Assembly TiketBai_Kudeaketa.dll public class Produktua Inheritance object Produktua Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Produktua(int, string, double) Produktu berri bat sortzen du emandako datuekin. public Produktua(int id, string izena, double prezioa) Parameters id int Produktuaren IDa. izena string Produktuaren izena. prezioa double Produktuaren prezioa. Properties Id Produktuaren identifikatzailea (ID). public int Id { get; set; } Property Value int Izena Produktuaren izena. public string Izena { get; set; } Property Value string Prezioa Produktuaren prezioa (unitateko prezioa edo kg-ko prezioa, erabileraren arabera). public double Prezioa { get; set; } Property Value double"
+  },
+  "api/TiketBai_Kudeaketa.Saltzailea.html": {
+    "href": "api/TiketBai_Kudeaketa.Saltzailea.html",
+    "title": "Class Saltzailea | ticketbai",
+    "summary": "Class Saltzailea Namespace TiketBai_Kudeaketa Assembly TiketBai_Kudeaketa.dll Saltzaile baten informazioa adierazten duen klasea. Tiket bakoitza saltzaile batekin lotzeko erabiltzen da. public class Saltzailea Inheritance object Saltzailea Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Saltzailea(int, string) Saltzaile berri bat sortzen du emandako datuekin. public Saltzailea(int id, string izena) Parameters id int Saltzailearen IDa. izena string Saltzailearen izena. Properties Id Saltzailearen identifikatzailea (ID). public int Id { get; set; } Property Value int Izena Saltzailearen izena. public string Izena { get; set; } Property Value string"
+  },
+  "api/TiketBai_Kudeaketa.TiketLerroa.html": {
+    "href": "api/TiketBai_Kudeaketa.TiketLerroa.html",
+    "title": "Class TiketLerroa | ticketbai",
+    "summary": "Class TiketLerroa Namespace TiketBai_Kudeaketa Assembly TiketBai_Kudeaketa.dll Tiket bateko lerro edo produktu-erregistro bat adierazten duen klasea. Produktu bat eta bere kantitatea gordetzen ditu, eta automatikoki subtotala kalkulatzen du. public class TiketLerroa Inheritance object TiketLerroa Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TiketLerroa(int, double, Produktua) Tiket lerro berri bat sortzen du eta subtotala automatikoki kalkulatzen du. public TiketLerroa(int id, double kantitatea, Produktua p) Parameters id int Lerroaren IDa. kantitatea double Produktuen kantitatea. p Produktua Lotutako produktua. Properties Id Lerroaren identifikatzailea (ID). public int Id { get; set; } Property Value int Kantitatea Produktuaren kantitatea (kg edo unitateak). public double Kantitatea { get; set; } Property Value double Produktua Lerro honi lotutako produktua. public Produktua Produktua { get; set; } Property Value Produktua Subtotala Lerroaren diru subtotala (kantitatea × prezioa). public double Subtotala { get; set; } Property Value double"
+  },
+  "api/TiketBai_Kudeaketa.Tiketa.html": {
+    "href": "api/TiketBai_Kudeaketa.Tiketa.html",
+    "title": "Class Tiketa | ticketbai",
+    "summary": "Class Tiketa Namespace TiketBai_Kudeaketa Assembly TiketBai_Kudeaketa.dll Tiket baten informazioa adierazten duen klasea. Saltzailea, baskula eta lerro guztiak gordetzen ditu. public class Tiketa Inheritance object Tiketa Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Tiketa(int, Saltzailea, Baskula) Tiket berri bat sortzen du. public Tiketa(int id, Saltzailea s, Baskula b) Parameters id int Tiketaren IDa. s Saltzailea Lotutako saltzailea. b Baskula Lotutako baskula edo saila. Properties Baskula Tiketari lotutako baskula edo saila. public Baskula Baskula { get; set; } Property Value Baskula Id Tiketaren identifikatzailea (ID). public int Id { get; set; } Property Value int Lerroak Tiketaren lerroen zerrenda (produktuen xehetasunak). public List<TiketLerroa> Lerroak { get; set; } Property Value List<TiketLerroa> Saltzailea Tiketari lotutako saltzailea. public Saltzailea Saltzailea { get; set; } Property Value Saltzailea Methods LortuGuztira() Tiketaren guztizko zenbatekoa kalkulatzen du, lerro bakoitzaren subtotala batuz. public double LortuGuztira() Returns double Tiketaren diru guztizkoa."
+  },
+  "api/TiketBai_Kudeaketa.html": {
+    "href": "api/TiketBai_Kudeaketa.html",
+    "title": "Namespace TiketBai_Kudeaketa | ticketbai",
+    "summary": "Namespace TiketBai_Kudeaketa Classes Baskula Baskula edo atal baten informazioa adierazten duen klasea. Produktuak sailkatzeko eta lotzeko erabiltzen da. Produktua Saltzailea Saltzaile baten informazioa adierazten duen klasea. Tiket bakoitza saltzaile batekin lotzeko erabiltzen da. TiketLerroa Tiket bateko lerro edo produktu-erregistro bat adierazten duen klasea. Produktu bat eta bere kantitatea gordetzen ditu, eta automatikoki subtotala kalkulatzen du. Tiketa Tiket baten informazioa adierazten duen klasea. Saltzailea, baskula eta lerro guztiak gordetzen ditu."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | ticketbai",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | ticketbai",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | ticketbai",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
